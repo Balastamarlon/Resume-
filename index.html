@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MyResume</title>
-  <meta content="" name="description">
+  <title>Marlon Balasta | Web Developer Portfolio</title>
+  <meta content="Web projects by Marlon Balasta, including a JavaScript delivery map and a responsive portfolio. Based in General Santos City, Philippines." name="description">
   <meta content="" name="keywords">
 
   <!-- Google Fonts -->
@@ -31,7 +31,8 @@
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-code-alt"></i> <span>Projects</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Experience</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -42,234 +43,57 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Marlon Balasta</h1>
-      <div class="social-links">
-        <a href="https://mobile.twitter.com/balasta_marlon?s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100007443768203" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/gensanoe/?igshid=18azhgftz1u3t" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/marlon-balasta-3a6a91162" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
+      <p>Web development · General Santos City</p>
+      <div class="mt-3"><a class="btn btn-primary" href="#projects">Explore my projects</a></div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
+    <section id="projects">
+      <div class="container">
+        <div class="section-title"><h2>Programming projects</h2>
+          <p>I build websites with HTML, CSS, and JavaScript. I enjoy working on practical problems, especially ones that involve maps and fieldwork.</p>
         </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
+        <div class="row g-4">
+          <article class="col-lg-6"><div class="card h-100 p-4">
+            <h3>Pabili delivery map</h3>
+            <p>I built an address picker for a delivery project. Type part of an address, select a suggestion, and the map drops a pin at that location. A separate button lets you find your current position if you allow location access.</p>
+            <p>I used JavaScript to request address suggestions from OpenStreetMap’s Nominatim service and Leaflet to move the map and place markers. The page also handles cases where the browser cannot get a location.</p>
+            <a href="https://github.com/MBALASTA12/map2.github.io/blob/main/script.js">Read the map JavaScript</a>
+          </div></article>
+          <article class="col-lg-6"><div class="card h-100 p-4">
+            <h3>Responsive portfolio</h3>
+            <p>I built a personal site that I can share with employers from my phone. Its project cards sit side by side on a laptop and stack on a smaller screen.</p>
+            <p>I used HTML for the content, Bootstrap and custom CSS for the layout, and GitHub Pages to publish it.</p>
+            <a href="https://mbalasta12.github.io/index.html">Open the portfolio</a>
+            <a href="https://github.com/MBALASTA12/MBALASTA12.github.io/blob/main/index.html">Read the HTML and CSS</a>
+          </div></article>
         </div>
-
       </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Marlon Balasta</h4>
-              <p><em>Secure a responsible carrier opportunity to fully utilize my skill, while making 
-
-a significant contribution to the success of the company.</em></p>
-              <ul>
-                <li>Brgy. Fatima GeneralSantosCity,  Phil.</li>
-                <li>(+63) 970-834-5055</li>
-                <li>balastamarlon12@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Technical Teacher Education;Electronics Technology</h4>
-              <h5>2012 - 2016</h5>
-              <p><em>Villamor College of Business and Arts,  Phil.</em></p>
-            </div>
+    </section>
+    <section id="resume" class="resume section-bg">
+      <div class="container">
+        <div class="section-title"><h2>Technical experience</h2></div>
+        <div class="row g-4">
+          <div class="col-lg-6"><h3 class="resume-title">Development &amp; support</h3>
+            <div class="resume-item"><h4>CTC BPO</h4><p>I worked in technical support. My projects included web forms for a local telecom office and a hotel management web application. Working with customers helped me understand what they needed a system to do.</p></div>
+            <div class="resume-item"><h4>Bank IT support</h4><p>I provided part-time IT support through Indra Philippines for Philippine National Bank for six months.</p></div>
           </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>DatabaseAdministrator</h4>
-              <h5>June 2020 - August 2021</h5>
-              <p><em>Pasig City, Phil. (WFH)</em></p>
-              <ul>
-                <li>Conduct SQL Server production database analysis on a regular basis</li>
-                <li>Perform troubleshooting for LAN problems for individual client basic software. </li>
-                <li>Install, administer, and update Oracle database tools and system.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>CTC BPO Inc.</h4>
-              <h5>2017 - 2020</h5>
-              <p><em>Mabuhay IT Park GSC, Phil.</em></p>
-              <ul>
-                <li>Created web form network for local Telecom office.</li>
-                <li>Built webapp for Hotel management system.</li>
-                <li>Handled full stack development for client projects. </li>
-                <li>Interfaced with customers every month to gather requirements and resolve issues. </li>
-                </ul>
-              </div>
-             <div class="resume-item">
-              <h4>Dynamic Power Marine & Industrial Supply.</h4>
-              <h5>2016 - 2017</h5>
-              <p><em>Fatima Uhaw GSC, Phil.</em></p>
-              <ul>
-                <li>Cultivated relationships with owners and decision makers in the designated territory.</li>
-                <li>Presented, promoted and sold products and services using solid arguments to existing and prospective customers. </li>
-                <li>Established, developed and maintained positive business and customer relationships</li>
-              </ul>
-            </div>
+          <div class="col-lg-6"><h3 class="resume-title">Field operations</h3>
+            <div class="resume-item"><h4>Fiber installation and repair</h4><p>I supervised FTTH crews and coordinated with engineers and site owners. When a road-widening project affected our pole locations, I checked the sites with DPWH and worked with the designer to revise the plan for PLDT approval.</p></div>
           </div>
         </div>
-
       </div>
-    </section><!-- End Resume Section -->
-
-
-
-    <!-- ======= Contact Section ======= -->
+    </section>
     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row mt-1">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Block 3 Lot 15 Templado Compound  Sunrise  Village Purok 22. Barangay Fatima Uhaw General Santos City.
-</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>balastamarlon12@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+63 970 834 5055</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
+      <div class="container section-title"><h2>Contact</h2>
+        <p>I’m based in General Santos City and open to remote junior web development roles.</p>
+        <p class="mt-3"><a href="mailto:balastamarlon12@gmail.com">Email Marlon</a> · <a href="https://github.com/Balastamarlon">GitHub profile</a> · <a href="https://www.linkedin.com/in/marlon-balasta-3a6a91162">LinkedIn</a></p>
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Marlon Balasta</h3>
-      <div class="social-links">
-        <a href="https://mobile.twitter.com/balasta_marlon?s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100007443768203" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/gensanoe/?igshid=18azhgftz1u3t" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/marlon-balasta-3a6a91162" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </section>
+  </main>
+  <footer id="footer"><div class="container">Marlon Balasta · General Santos City, Philippines</div></footer>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
